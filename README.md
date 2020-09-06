@@ -28,4 +28,15 @@ let g:lightline = {
 
 If you want syntax highlighting just like mine in python. Use [vim-python](https://github.com/vim-python/python-syntax). Its tested with vundle and vim-python.
 
+It is by default made to be transperant. If you dont want transperancy.
+
+change this line in the colors/neonnights.vim
+```
+hi Normal guibg=NONE guifg=#2496FF gui=NONE cterm=NONE
+```
+to this:
+```
+hi Normal guibg=#170020 guifg=#2496FF gui=NONE cterm=NONE
+```
+
 All the colors in this theme use xterm-256color scheme. So there's that.

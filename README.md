@@ -40,3 +40,6 @@ hi Normal guibg=#170020 guifg=#2496FF gui=NONE cterm=NONE
 ```
 
 All the colors in this theme use xterm-256color scheme. So there's that.
+
+
+the lightline theme is a modified version of onehalfdark lightline theme

@@ -15,26 +15,23 @@ set termguicolors
 " ===============================================================
 " GUI Highlighting
 
-hi Normal guibg=NONE guifg=#2496FF gui=NONE cterm=NONE
-hi NonText guibg=NONE guifg=#C51EBE gui=NONE cterm=NONE
-hi SpecialKey guibg=NONE guifg=#005DC5 gui=NONE cterm=NONE
-hi Title guibg=NONE guifg=#07BAD4 gui=NONE cterm=NONE
-
-hi Directory guibg=NONE guifg=#07BAD4 gui=NONE cterm=NONE
-hi Error guibg=NONE guifg=#DB3012 gui=NONE cterm=NONE
-hi Comment guibg=NONE guifg=#8e87c1 gui=italic cterm=italic
-hi Todo guibg=#2d2b3a guifg=#8e87c1 gui=italic,bold cterm=italic,bold
-
-hi VertSplit guibg=NONE guifg=#6FDAF0 gui=NONE cterm=NONE
-hi StatusLine guibg=#221727 guifg=#07BAD4 gui=bold cterm=bold
-hi StatusLineNC guibg=#24222F guifg=#0078FF gui=NONE cterm=NONE
-hi LineNr guibg=NONE guifg=#07BAD4 gui=NONE cterm=NONE
-
-hi Visual guibg=#C51EBE guifg=#EAEAEA gui=BOLD cterm=BOLD
-hi CursorLine guibg=NONE guifg=#F92EBD gui=BOLD cterm=BOLD
-hi CursorLineNr guibg=NONE guifg=#07BAD4 gui=BOLD cterm=BOLD
-hi CursorColumn guibg=NONE guifg=#FFF629 gui=BOLD cterm=BOLD
-hi ColorColumn guibg=#221727 guifg=NONE gui=NONE cterm=NONE
+hi  Normal        guibg=NONE     guifg=#2496FF  gui=NONE         cterm=NONE
+hi  NonText       guibg=NONE     guifg=#C51EBE  gui=NONE         cterm=NONE
+hi  SpecialKey    guibg=NONE     guifg=#005DC5  gui=NONE         cterm=NONE
+hi  Title         guibg=NONE     guifg=#07BAD4  gui=NONE         cterm=NONE
+hi  Directory     guibg=NONE     guifg=#07BAD4  gui=NONE         cterm=NONE
+hi  Error         guibg=NONE     guifg=#DB3012  gui=NONE         cterm=NONE
+hi  Comment       guibg=NONE     guifg=#8e87c1  gui=italic       cterm=italic
+hi  Todo          guibg=#2d2b3a  guifg=#8e87c1  gui=italic,bold  cterm=italic,bold
+hi  VertSplit     guibg=NONE     guifg=#6FDAF0  gui=NONE         cterm=NONE
+hi  StatusLine    guibg=#221727  guifg=#07BAD4  gui=bold         cterm=bold
+hi  StatusLineNC  guibg=#24222F  guifg=#0078FF  gui=NONE         cterm=NONE
+hi  LineNr        guibg=NONE     guifg=#07BAD4  gui=NONE         cterm=NONE
+hi  Visual        guibg=#C51EBE  guifg=#EAEAEA  gui=BOLD         cterm=BOLD
+hi  CursorLine    guibg=NONE     guifg=#F92EBD  gui=BOLD         cterm=BOLD
+hi  CursorLineNr  guibg=NONE     guifg=#07BAD4  gui=BOLD         cterm=BOLD
+hi  CursorColumn  guibg=NONE     guifg=#FFF629  gui=BOLD         cterm=BOLD
+hi  ColorColumn   guibg=#221727  guifg=NONE     gui=NONE         cterm=NONE
 
 hi TabLine guibg=#2d2b3a guifg=#63BCFF gui=NONE cterm=NONE
 hi TabLineFill guibg=#221727 guifg=#26d2f6 gui=NONE cterm=NONE
